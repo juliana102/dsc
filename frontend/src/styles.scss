@@ -1,0 +1,16 @@
+$run-red: #DC143C;
+$run-white:#F8F8FF;
+$run-black: #000000;
+$run-font: Monaco;
+$menu-item-hover-color: $run-white;
+$menu-item-hover-background-color: $run-black;
+$button-background-color: $run-red;
+$button-color: $run-white;
+$button-hover-color: none;
+$footer-background-color:white;
+
+@import "./components/layout/Layout.scss";
+@import "./components/sidebar/SideBar.scss";
+@import "./components/actions/Button.scss";
+@import "./pages/Groups.scss";
+@import "~bulma/bulma";
