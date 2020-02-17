@@ -2,7 +2,7 @@ import React from 'react'
 import SideBar from '../sidebar'
 
 export const Layout = props => (
-    <div className="columns">
+    <div className="columns layout-base">
         <div className="column side-bar">
         <SideBar/>
         </div>
