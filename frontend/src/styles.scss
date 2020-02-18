@@ -50,4 +50,15 @@ $footer-background-color:white;
     color: $run-black;
 }
 
+//modal
+
+.modal-head-content{
+    font-family: $run-font;
+    color: $run-black !important;
+}
+
+.btn-modal{
+    font-family: $run-font;
+}
+
 @import "~bulma/bulma";
