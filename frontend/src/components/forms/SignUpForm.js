@@ -6,14 +6,14 @@ const SignUpForm = () => {
       <div className="column is-5">
         <div className="card">
           <div className="card-content">
-            <h1 className="title login-title">Login</h1>
+            <h1 className="title login-title">Sign Up</h1>
             <div className="field">
               <p className="control has-icons-left has-icons-right bd-notification">
                 <input className="input" type="email" placeholder="Email" />
                 <span className="icon is-small is-left">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fas fa-envelope"/>
                 </span>
-                <span className="icon is-small is-right"></span>
+                <span className="icon is-small is-right"/>
               </p>
             </div>
             <div className="field"> 
@@ -22,18 +22,6 @@ const SignUpForm = () => {
                   className="input"
                   type="password"
                   placeholder="Password"
-                />
-                <span className="icon is-small is-left">
-                  <i className="fas fa-lock" />
-                </span>
-              </p>
-            </div>
-            <div className="field">
-              <p className="control has-icons-left bd-notification">
-                <input
-                  className="input"
-                  type="password"
-                  placeholder="Confirm Password"
                 />
                 <span className="icon is-small is-left">
                   <i className="fas fa-lock" />
