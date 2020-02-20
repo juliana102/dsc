@@ -44,7 +44,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <PublicRoute authed={authed} path="/signup" component={SignUp}/>
           <PrivateRoute authed={authed} path="/clubs" component={Clubs}/>
-          <PrivateRoute authed={authed} path="/group" component={Groups}/>
+          <PrivateRoute authed={authed} path="/groups" component={Groups}/>
           <PrivateRoute authed={authed} path="/availability" component={Availability}/>
           <Route render={() => <Layout><h1>No Match</h1></Layout>} />
         </Switch>
