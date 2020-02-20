@@ -9,11 +9,11 @@ const LoginHandler = () => {
     const handleEmail = e => setEmail(e.target.value);
     const handlePass = e => setPass(e.target.value);
 
-    const handleLogin = () => (
-        logIn(email, pass)
-            .catch(() => setErr(true))
-    );
-
+    const handleLogin = () => {
+        logIn(email, pass).catch(() => {
+            setErr(true)
+        });
+    };
     return{
         err,
         handleEmail,
