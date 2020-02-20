@@ -1,7 +1,7 @@
 import React from "react";
-import {logIn} from "../../../utils/auth";
+import { signUp } from "../../../utils/auth";
 
-const LoginHandler = () => {
+const SignUpHandler = () => {
     const [ email, setEmail ] = React.useState("");
     const [ pass, setPass ] = React.useState("");
     const [err, setErr] = React.useState(false);
@@ -9,17 +9,16 @@ const LoginHandler = () => {
     const handleEmail = e => setEmail(e.target.value);
     const handlePass = e => setPass(e.target.value);
 
-    const handleLogin = () => (
-        logIn(email, pass)
-            .catch(() => setErr(true))
+    const handleSignUp = () => (
+        signUp(email, pass).catch(() => setErr(true))
     );
 
     return{
         err,
         handleEmail,
         handlePass,
-        handleLogin
+        handleSignUp
     }
 };
 
-export default LoginHandler
+export default SignUpHandler

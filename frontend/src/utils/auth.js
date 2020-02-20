@@ -10,13 +10,13 @@ export const saveUser = user => (
 );
 
 //If user does not have an account this function will allow them to sign up with firebase.
-export const signup = (email, pass) => (
+export const signUp = (email, pass) => (
     firebaseAuth().createUserWithEmailAndPassword(email, pass)
         .then(saveUser)
 );
 
 //Allows the user to log in with their email and password which is already in firebase.
-export const login = (email, pass) => (
+export const logIn = (email, pass) => (
     firebaseAuth().signInWithEmailAndPassword(email, pass)
 );
 

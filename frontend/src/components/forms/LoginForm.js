@@ -12,9 +12,9 @@ const LoginForm = props => {
               <p className="control has-icons-left has-icons-right bd-notification">
                 <input className="input" type="email" placeholder="Email" />
                 <span className="icon is-small is-left">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fas fa-envelope"/>
                 </span>
-                <span className="icon is-small is-right"></span>
+                <span className="icon is-small is-right"/>
               </p>
             </div>
             <div className="field">
