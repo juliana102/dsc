@@ -10,15 +10,13 @@ import { Availability } from "./pages/Availability";
 import { SignUp } from "./pages/SignUp";
 
 ReactDOM.render(
-  <FirebaseContext.Provider value={new Firebase()}>
     <BrowserRouter>
       <Route exact path="/" component={Home} />
       <Route exact path="/groups" component={Groups} />
       <Route exact path="/clubs" component={Clubs} />
       <Route exact path="/availability" component={Availability} />
       <Route exact path="/signup" component={SignUp} />
-    </BrowserRouter>
-  </FirebaseContext.Provider>,
+    </BrowserRouter>,
   document.getElementById("root")
 );
 
