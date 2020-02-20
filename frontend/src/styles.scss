@@ -61,4 +61,23 @@ $footer-background-color:white;
     font-family: $run-font;
 }
 
+//login form
+
+.login-base{
+    min-height: 100vh;
+}
+
+.login-title{
+    font-family: $run-font !important;
+
+}
+
+.sign-up-link{
+    color:$run-black;
+    font-family: $run-font;
+    padding-top:1rem;
+}
+
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
 @import "~bulma/bulma";

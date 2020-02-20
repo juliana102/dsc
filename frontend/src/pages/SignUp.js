@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/layout";
-import { LoginForm } from "../components/forms"
+import { SignUpForm } from "../components/forms";
 
-export const Home = () => {
+export const SignUp = () => {
   return (
     <Layout>
-     <LoginForm/>
+      <SignUpForm />
     </Layout>
   );
 };
