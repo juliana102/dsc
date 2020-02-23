@@ -19,7 +19,7 @@ What is needed to run the project:
 ### Installing
 
 To install the dependencies needed to run the application, using your command line or powershell/cmd 
-navigate to the /frontend directory and run the following command.  
+navigate to the ```/frontend``` directory and run the following command.  
 
 ```
 npm install
